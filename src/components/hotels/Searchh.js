@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Scrollh from './Scrollh';
 import SearchListh from './SearchListh';
-import Cardh from './Cardh';
+// import Cardh from './Cardh';
 
 function Searchh({ details }) {
 

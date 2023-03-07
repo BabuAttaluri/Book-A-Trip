@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import { Navigate, useNavigate } from "react-router-dom";
-import hotelDetails from "../data/hotelDetails";
+// import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+// import hotelDetails from "../data/hotelDetails";
 import "./Checkout1.css";
 function Checkout(){
     const navigate = useNavigate();   

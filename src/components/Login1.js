@@ -8,8 +8,8 @@ const Login1 = () => {
   const password = useRef();
   let flag;  
 
-  let getcredentials = localStorage.getItem('credentials');
-  getcredentials = JSON.parse(getcredentials);
+  // let getcredentials = localStorage.getItem('credentials');
+  // getcredentials = JSON.parse(getcredentials);
   let credentials = [];
   
   

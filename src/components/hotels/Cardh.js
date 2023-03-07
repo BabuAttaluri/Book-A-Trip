@@ -1,13 +1,11 @@
-import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function Cardh({hotels}) {
-  let hotels1 = hotels;
   const navigate = useNavigate();
   
   // console.log(hotels1.city);
   function handleClick (){
-  let hot = hotels1;
   alert("proceed to check-out...");
   navigate ("/Checkout");
 }
