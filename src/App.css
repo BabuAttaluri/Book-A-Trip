@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+/* @media screen and (max-width: 800px) { */
+/* @media screen and (min-width: 800px) {
+  .nav, .flight, .hotel { */
+   /* width: 100%; /* The width is 100%, when the viewport is 800px or smaller */      
+  /* }
+} */
+body{  
+  /* background-image: url("https://media.istockphoto.com/id/477372378/photo/travel-collage-world-images.jpg?s=612x612&w=0&k=20&c=f58flJv08W5A9NAn2t4XFmd8Z_T2UwNc8dPdK-xkxc8="); */
+  /* background-image: url("https://static.tnn.in/photo/msid-94472050/94472050.jpg"); */
+  /* background-image: url("https://d.newsweek.com/en/full/525201/paris.jpg"); */
+  /* padding: 100px; */
+  /* width: 10px; */
+  height: 100px;  
+}
+/* .App {
+  text-align: center;
+} */
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+/* .garamond{  
+  background-color: rgb(242, 243, 241);
+} */
+.wrapper{
+  /* display: flex; */
+  justify-content: center;
+  width: 95%;
+  margin: 1rem 1rem;
+}
+.wrapper1{
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  margin: 1rem 1rem;
+}
+.tc {  
+  width: 100%;
+  float: left;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;  */
+}
+.tc-in{
+   width: 100%;
+  display: grid;
+  /* float: left; */
+  /* grid: repeat(2, 30px) / auto-flow 100px; */
+  grid: repeat(2, 30%) / auto-flow 10%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  background-color: aliceblue;
+  /* margin: 30px 30px; */
+  /* margin: 2% 2%; */
+  border-radius: 10px;
+  margin: 5px 5px 30px;
+  /* padding: 2px; */
+  /* margin-top: 15px; */
+  box-shadow: 1px 1px 2px 2px rgb(120, 183, 251) ;  
+}
+
+.tc-in1{
+  width: 100%;
+  text-align: left;  
+ /* display: grid;
+ grid: repeat(2, 30%) / auto-flow 10%;
+ grid-template-columns: repeat(3, 1fr);
+ grid-template-rows: 1fr 1fr 1fr 1fr;
+ background-color: aliceblue;
+ box-shadow: 1px 1px 2px 2px rgb(120, 183, 251) ;   */
+}
+.tc-in2{
+  width: 50%; 
+}
+
+.tchk-wrap{
+  background-color: aliceblue;
+  border-radius: 9px;
+  padding-left: 20px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 1rem;
+}
+.tchk{
+  padding-left: 5px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  /* text-align: left; */
+  box-sizing: border-box;
+  box-shadow: 1px 1px 2px 2px rgb(120, 183, 251);
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+
+}
+.tchk-in{
+  /* display: flex; */
+  margin-top: 20px;
+  padding-left: 10px;
+  padding: 2px 10px;
+  /* width: 460px; */
+  /* width: 32vw; */
+  width: 97%;
+  border-radius: 10px;
+  background-color: #cdf2fc;
+
+
+}
+.card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 200px;
+  /* min-width: 45vw; */
+  
+}
+.checkbox{
+  align-items: left;
+}
+.card-info input {
+  margin-top: 5px;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  letter-spacing: 0.025em;
+  height: 25px;
+  width: 200px;
+}
+.tchk-in2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  /* padding-top: 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.para{
+  /* width: 60px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-grow: 1; */
+}
+
+.flight{
+  width: 80px;
+  text-align: center;
+}
+.hotel{
+  width: 80px;
+  text-align: center;
+}
+
+.br4 {
+  margin: 1rem;
+  width: 90%;
+  height:40%;
+  border-radius: 1rem;
+  background-color: rgb(104, 171, 252);
+  border: none;
+}
+.br4:hover{
+  color: white;
+}
+.f2{
+  background-color:aliceblue;
+  border-radius: 10px;
+  margin: 30px 30px;
+  padding: 10px 20px;
+  /* padding-left: 20px; */
+}
+
+.pa2{
+  /* width: 100%; */
+  width: 33%;  
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: right;
+}
+.pa3{
+  /* width: 33%;   */
+  background-color: aliceblue;
+  /* border: none;
+  display: flex;
+  justify-content: center; */
+
+}
+.login{
+  width: 80px;
+  text-align: center;
+  /* display: flex;
+  justify-content: right;
+  align-items: flex-end; */
+}
+.loginimg{
+  width: 20vw;
+  height: 20vh;
+  /* width: 80px;
+  height: 60px; */
+  /* margin-bottom: 10px; */
+}
+.logo{
+  width: 80px;
+  padding: 1rem 1rem;
+}
+
+.items:hover{
+  color: bisque;
+}
+/* button{
+  margin: 10px 10px;
+  width:120px;
+  height: 30px;
+  color: black;
+  background-color: rgb(65, 125, 255);
+  border:none;
+  border-radius: 35px;
+} */
+/* button:hover{
+  color: bisque;
+} */
+.flight, .hotel {
+  text-align: center;  
+  /* margin: 20px;
+  flex-direction: column;   */
+}
+.flight:hover, .hotel:hover {
+  zoom: 1.03;
+}
+
+.bookmain{  
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.plane-move{
+  margin: 1.1rem;
+  width: 4.7rem;  
+}
+nav{  
+  background-color: white;
+  font-weight: 600;
+  height: 9vh;
+  border-radius: 9rem;  
+  display: flex;  
+  justify-content: flex-end;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+/* nav:hover{
+  color: bisque;
+} */
+/* .box {
+  text-align: left;
+  border: black ridge 1px;
+  border-radius: 10px;
+  margin: 3px;
+  width: 40rem;
+  padding-left: 10px;
+} */
+
+/* .flight, .hotel {
+  margin: 1rem;
+  gap: 1% 5%;
+} */
+.flight:hover, .hotel:hover {
+  zoom: 1.03;
+}
+.login-pg{
+  height: 40px;
+  padding: 10px;  
+}
+.wrap-login{
+  width: 600px;
+  display: flex;
+  flex-grow: 1;
+}
+/* .wrap-login{ */
+  /* box-sizing: border-box;
+  box-shadow: 1px 2px 5px 5px rgb(216, 215, 215); */
+  /* margin-left: 20vw; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+/* } */
+
+input{
+  /* height: 50px; */
+  width: 60vw;
+  border-radius: 10px;
+  border-width: .1rem;
+}
+.App-link {
+  color: #61dafb;
+}
+.frnt-img{
+  /* background-image: url("https://media.istockphoto.com/id/477372378/photo/travel-collage-world-images.jpg?s=612x612&w=0&k=20&c=f58flJv08W5A9NAn2t4XFmd8Z_T2UwNc8dPdK-xkxc8="); */
+  width: 1200px;
+  height: 1200px;
+  /* display: flex; */
+  /* justify-content: flex-start; */
+  /* align-items: center; */
+}
+@media (prefers-reduced-motion: no-preference) {
+  /* .App-logo { */
+    .logo {
+    animation: logo infinite 20s linear;
+    /* animation: App-logo-spin infinite 20s linear; */
+  }
+}
+/* @keyframes App-logo-spin { */
+  @keyframes logo {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {  
+    .plane-move {
+      /* animation: 3s ease-in 1s infinite reverse both running plane-move; */
+    animation: plane-move infinite 20s linear;
+    animation-direction: reverse;
+  }
+}
+  @keyframes plane-move {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} 

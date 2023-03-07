@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://d.newsweek.com/en/full/525201/paris.jpg");
+  /* background-image: url("https://preview.redd.it/d4e6wdlsz4531.jpg?width=640&crop=smart&auto=webp&s=8c01082e8ddb0355a32f7678ffe23a00eb6bffb7");   */
+  /* background-image: url("https://b.zmtcdn.com/data/reviews_photos/257/5b94bdc43a1ecb345f4f117b27773257_1653492162.jpg"); */
+  
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
